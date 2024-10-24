@@ -9,12 +9,15 @@ export const HomeScreen = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <title>Index</title>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css" />
-        <link rel="stylesheet" href="assets/font/flaticon.css" />
-        <link rel="stylesheet" href="assets/css/all.min.css" />
-        <link rel="stylesheet" href="assets/css/fontawsom-all.min.css" />
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+        <link
+          rel="stylesheet"
+          href="../assets/css/plugins/owl.carousel.min.css"
+        />
+        <link rel="stylesheet" href="../assets/font/flaticon.css" />
+        <link rel="stylesheet" href="../assets/css/all.min.css" />
+        <link rel="stylesheet" href="../assets/css/fontawsom-all.min.css" />
+        <link rel="stylesheet" href="../assets/css/style.css" />
       </head>
 
       <body>
@@ -28,7 +31,7 @@ export const HomeScreen = () => {
                 <div className="logo">
                   <img
                     // style="border-radius: 10px; width: 153px; height: 45px"
-                    src="..assets/images/logo/logo.png"
+                    src="..../assets/images/logo/logo.png"
                   />
                 </div>
 
@@ -104,7 +107,7 @@ export const HomeScreen = () => {
                   </div>
                   <img
                     className="d-block w-100"
-                    src="assets/images/banner/slider-01.jpg"
+                    src="../assets/images/banner/slider-01.jpg"
                   />
                 </div>
                 <div className="carousel-item">
@@ -123,7 +126,7 @@ export const HomeScreen = () => {
                   </div>
                   <img
                     className="d-block w-100"
-                    src="assets/images/banner/slider-02.jpg"
+                    src="../assets/images/banner/slider-02.jpg"
                   />
                 </div>
                 <div className="carousel-item">
@@ -142,7 +145,7 @@ export const HomeScreen = () => {
                   </div>
                   <img
                     className="d-block w-100"
-                    src="assets/images/banner/slider-03.jpg"
+                    src="../assets/images/banner/slider-03.jpg"
                   />
                 </div>
               </div>
@@ -218,7 +221,7 @@ export const HomeScreen = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="image">
-                    <img src="assets/images/abt-img/1000-1000.jpg" />
+                    <img src="../assets/images/abt-img/1000-1000.jpg" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -533,7 +536,7 @@ export const HomeScreen = () => {
                               and hassle-free. Highly recommended!
                             </p>
                             <a>
-                              <img src="assets/images/team/1.jpg" />
+                              <img src="../assets/images/team/1.jpg" />
                             </a>
                           </div>
                         </div>
@@ -545,7 +548,7 @@ export const HomeScreen = () => {
                               budget and improve cost efficiency.
                             </p>
                             <a>
-                              <img src="assets/images/team/2.jpg" />
+                              <img src="../assets/images/team/2.jpg" />
                             </a>
                           </div>
                         </div>
@@ -580,7 +583,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/1.jpg" />
+                      <img src="../assets/images/team/1.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>James</h3>
@@ -619,7 +622,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/3.jpg" />
+                      <img src="../assets/images/team/3.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>Albert</h3>
@@ -658,7 +661,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/2.jpg" />
+                      <img src="../assets/images/team/2.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>Johns</h3>
@@ -697,7 +700,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/4.jpg" />
+                      <img src="../assets/images/team/4.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>Smith</h3>
@@ -748,7 +751,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                   <article className="blog-sub">
                     <div className="blog-content">
-                      <img src="assets/images/blog/1.jpg" />
+                      <img src="../assets/images/blog/1.jpg" />
                     </div>
                     <div className="blog-content-section">
                       <div className="blo-content-title">
@@ -779,7 +782,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                   <article className="blog-sub">
                     <div className="blog-content">
-                      <img src="assets/images/blog/2.jpg" />
+                      <img src="../assets/images/blog/2.jpg" />
                     </div>
                     <div className="blog-content-section">
                       <div className="blo-content-title">
@@ -810,7 +813,7 @@ export const HomeScreen = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                   <article className="blog-sub">
                     <div className="blog-content">
-                      <img src="assets/images/blog/3.jpg" />
+                      <img src="../assets/images/blog/3.jpg" />
                     </div>
                     <div className="blog-content-section">
                       <div className="blo-content-title">
@@ -940,10 +943,10 @@ export const HomeScreen = () => {
         </footer>
       </body>
 
-      <script src="assets/js/jquery-3.2.1.min.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-      <script src="assets/js/plugins/owl.carousel.min.js"></script>
-      <script src="assets/js/script.js"></script>
+      <script src="../assets/js/jquery-3.2.1.min.js"></script>
+      <script src="../assets/js/bootstrap.min.js"></script>
+      <script src="../assets/js/plugins/owl.carousel.min.js"></script>
+      <script src="../assets/js/script.js"></script>
     </html>
   );
 };
