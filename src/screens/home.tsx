@@ -1,4 +1,11 @@
-import React from 'react'; 
+import React from 'react';
+import '../assets/css/bootstrap.min.css';
+import '../assets/css/plugins/owl.carousel.min.css';
+import '../assets/font/flaticon.css';
+import '../assets/css/all.min.css';
+import '../assets/css/fontawsom-all.min.css';
+import '../assets/css/style.css';
+
 const HomeScreen: React.FC = () => {
   return (
     <html lang="eng">
@@ -9,12 +16,6 @@ const HomeScreen: React.FC = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <title>Index</title>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css" />
-        <link rel="stylesheet" href="assets/font/flaticon.css" />
-        <link rel="stylesheet" href="assets/css/all.min.css" />
-        <link rel="stylesheet" href="assets/css/fontawsom-all.min.css" />
-        <link rel="stylesheet" href="assets/css/style.css" />
       </head>
 
       <body>
