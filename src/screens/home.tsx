@@ -1,5 +1,5 @@
-import React from "react";
-export const HomeScreen = () => {
+import React from 'react'; 
+const HomeScreen: React.FC = () => {
   return (
     <html lang="eng">
       <head>
@@ -947,3 +947,4 @@ export const HomeScreen = () => {
     </html>
   );
 };
+export default HomeScreen

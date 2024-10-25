@@ -3,7 +3,7 @@ import {
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
-import { HomeScreen } from "../screens/home";
+import HomeScreen from "../screens/home.tsx";
 // import { useApp } from "../appContext"
 // import { Home } from "../App";
 // const SignUp = React.lazy(() => import("../screens/signup"))
