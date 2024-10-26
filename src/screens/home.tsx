@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/css/bootstrap.min.css';
 import '../assets/css/plugins/owl.carousel.min.css';
 import '../assets/font/flaticon.css';
@@ -35,21 +36,21 @@ const HomeScreen: React.FC = () => {
 
                 <div className="menu-items">
                   <div className="menu">
-                    <ul>
+                   <ul>
                       <li>
-                        <a href="index.html">Home</a>
+                        <Link to="HomeScreen">Home</Link>
                       </li>
                       <li>
-                        <a href="about-us.html">About Us</a>
+                        <Link to="AboutUs">About Us</Link>
                       </li>
                       <li>
-                        <a href="services-india.html">Services</a>
+                        <Link to="Services">Services</Link>
                       </li>
                       <li>
-                        <a href="blog.html">Blog</a>
+                        <Link to="Blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="contact-us.html">Contact Us</a>
+                        <Link to="ContactUs">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -105,7 +106,7 @@ const HomeScreen: React.FC = () => {
                   </div>
                   <img
                     className="d-block w-100"
-                    src="assets/images/banner/slider-01.jpg"
+                    src="../assets/images/banner/slider-01.jpg"
                   />
                 </div>
                 <div className="carousel-item">
@@ -124,7 +125,7 @@ const HomeScreen: React.FC = () => {
                   </div>
                   <img
                     className="d-block w-100"
-                    src="assets/images/banner/slider-02.jpg"
+                    src="../assets/images/banner/slider-02.jpg"
                   />
                 </div>
                 <div className="carousel-item">
@@ -143,7 +144,7 @@ const HomeScreen: React.FC = () => {
                   </div>
                   <img
                     className="d-block w-100"
-                    src="assets/images/banner/slider-03.jpg"
+                    src="../assets/images/banner/slider-03.jpg"
                   />
                 </div>
               </div>
@@ -219,7 +220,7 @@ const HomeScreen: React.FC = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="image">
-                    <img src="assets/images/abt-img/1000-1000.jpg" />
+                    <img src="../assets/images/abt-img/1000-1000.jpg" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -534,7 +535,7 @@ const HomeScreen: React.FC = () => {
                               and hassle-free. Highly recommended!
                             </p>
                             <a>
-                              <img src="assets/images/team/1.jpg" />
+                              <img src="../assets/images/team/1.jpg" />
                             </a>
                           </div>
                         </div>
@@ -546,7 +547,7 @@ const HomeScreen: React.FC = () => {
                               budget and improve cost efficiency.
                             </p>
                             <a>
-                              <img src="assets/images/team/2.jpg" />
+                              <img src="../assets/images/team/2.jpg" />
                             </a>
                           </div>
                         </div>
@@ -581,7 +582,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/1.jpg" />
+                      <img src="../assets/images/team/1.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>James</h3>
@@ -620,7 +621,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/3.jpg" />
+                      <img src="../assets/images/team/3.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>Albert</h3>
@@ -659,7 +660,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/2.jpg" />
+                      <img src="../assets/images/team/2.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>Johns</h3>
@@ -698,7 +699,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="team-wrapper">
                     <div className="team-img">
-                      <img src="assets/images/team/4.jpg" />
+                      <img src="../assets/images/team/4.jpg" />
                     </div>
                     <div className="team-content">
                       <h3>Smith</h3>
@@ -749,7 +750,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                   <article className="blog-sub">
                     <div className="blog-content">
-                      <img src="assets/images/blog/1.jpg" />
+                      <img src="../assets/images/blog/1.jpg" />
                     </div>
                     <div className="blog-content-section">
                       <div className="blo-content-title">
@@ -780,7 +781,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                   <article className="blog-sub">
                     <div className="blog-content">
-                      <img src="assets/images/blog/2.jpg" />
+                      <img src="../assets/images/blog/2.jpg" />
                     </div>
                     <div className="blog-content-section">
                       <div className="blo-content-title">
@@ -811,7 +812,7 @@ const HomeScreen: React.FC = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                   <article className="blog-sub">
                     <div className="blog-content">
-                      <img src="assets/images/blog/3.jpg" />
+                      <img src="../assets/images/blog/3.jpg" />
                     </div>
                     <div className="blog-content-section">
                       <div className="blo-content-title">
@@ -941,10 +942,10 @@ const HomeScreen: React.FC = () => {
         </footer>
       </body>
 
-      <script src="assets/js/jquery-3.2.1.min.js"></script>
-      <script src="assets/js/bootstrap.min.js"></script>
-      <script src="assets/js/plugins/owl.carousel.min.js"></script>
-      <script src="assets/js/script.js"></script>
+      <script src="../assets/js/jquery-3.2.1.min.js"></script>
+      <script src="../assets/js/bootstrap.min.js"></script>
+      <script src="../assets/js/plugins/owl.carousel.min.js"></script>
+      <script src="../assets/js/script.js"></script>
     </html>
   );
 };
